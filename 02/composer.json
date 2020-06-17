@@ -1,0 +1,19 @@
+{
+    "name": "testsss",
+    "description": "测试framework", 
+    "keywords":[
+        "php",
+        "swoole",
+        "testsss"
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "application/",
+            "Think\\": "framework/Think/"
+        }
+    }, 
+    "require":{
+        "php": ">=7.0",
+        "ext-swoole": ">=4.0"
+    }
+}
